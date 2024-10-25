@@ -97,7 +97,7 @@ if(have_posts()){
     <section id="contact" class="contact" >
         
         <div class="contact__form">
-             <?php echo do_shortcode('[forminator_form id="191"]') ?>
+             <?php echo do_shortcode('[forminator_form id="569"]') ?>
         </div>
     
         <div class="contact__title">

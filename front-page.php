@@ -179,8 +179,7 @@
 
 
     <section class="testimonial">
-                 <?php // sp_testimonial( 44 );?>
-                 <?php do_shortcode('[sp_testimonial id="468"]'); ?>
+                 <?php sp_testimonial( 44 );?>
   </section>
 
 
@@ -335,7 +334,7 @@
     <section id="contact" class="contact" >
         
         <div class="contact__form">
-             <?php // echo do_shortcode('[forminator_form id="191"]') ?>
+             <?php echo do_shortcode('[forminator_form id="569"]') ?>
         </div>
     
         <div class="contact__title" data-aos="fade-left" data-aos-duration="2000">
