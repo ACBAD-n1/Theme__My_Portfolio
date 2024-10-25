@@ -1,0 +1,16 @@
+.btn {
+    padding: 1.5rem 5rem;
+    margin-top: 2.5rem;
+    background-color: $color-primary;
+    color: #fff;
+    border: none;
+    border-radius: 10px 20px 30px 40px; 
+    cursor: pointer;
+
+    transition: all .5s;
+    
+    &:hover {
+        background-color: $color-secondary-dark;
+
+    }
+}

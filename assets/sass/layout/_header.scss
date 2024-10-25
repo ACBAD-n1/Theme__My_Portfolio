@@ -1,0 +1,66 @@
+.header {
+    grid-column: full-start / full-end;
+
+    color: #fff;
+    
+
+    }
+    
+
+.navigation {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+
+    &.sticky {
+        background-color: $color-secondary;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Updated box shadow */
+        z-index: 10000; /* Higher z-index to ensure it appears above other content */
+    }
+
+    &__brand {
+        font-family: "Kenia", sans-serif;;
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-transform: normal;
+        text-decoration: none;
+        letter-spacing: .2rem;
+    }
+
+    &__menu {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__menu a{
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #fff;
+        text-decoration: none;
+        margin: 0 2rem;
+        padding: 0 1rem;
+        border-radius: 2rem;
+        transition: all .5s;
+    }
+
+    &__menu a:hover {
+        color: #000;
+        background-color: #fff;
+    }
+
+    &__menu-btn {
+        color: #fff;
+        font-size: 2.5rem;
+        cursor: pointer;
+        display: none;
+    }
+}
