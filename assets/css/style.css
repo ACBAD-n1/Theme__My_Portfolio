@@ -1558,3 +1558,27 @@ cite {
     font-size: 0.9rem;
   }
 }
+
+
+.site-main {
+  width: 100%;
+  min-height: 120vh;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3C3C3C;
+  padding: 5rem;
+}
+
+.vp-filter__style-minimal .vp-filter__item {
+  font-size: 1.5rem;
+}
+
+.vp-filter__style-minimal .vp-filter__item.vp-filter__item-active {
+  --vp-filter-minimal--items__color: #c9a7eb;
+}
+
+.vp-filter__style-minimal .vp-filter__item > a:hover {
+  color: #C9A7EB;
+}
